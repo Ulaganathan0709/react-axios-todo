@@ -62,9 +62,7 @@ const App = () => {
       return dueDateOnly < todayDateOnly && todo.status !== 'Completed';
     }).length;
     const pending = todos.filter((todo) => {
-      const dueDate = new Date(todo.dueDate);
-      const dueDateOnly = new Date(dueDate.getFullYear(), dueDate.getMonth(), dueDate.getDate());
-      return todo.status !== 'Completed' && dueDateOnly >= todayDateOnly;
+      return todo.status !== 'Completed'
     }).length;
 
     setCounts({ completed, pending, overdue });

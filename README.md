@@ -1,7 +1,7 @@
 # React Axios TODO Application
 
 ## Live Demo
-Access the live demo of the React Axios TODO application here: [React Axios TODO Live Demo](https://usktodo.netlify.app/)
+Access the live demo of the React Axios TODO application here: [React Axios TODO Live Demo](https://todousk.netlify.app/)
 
 ## Introduction
 The React Axios TODO application is a comprehensive platform designed to manage user tasks with full CRUD functionalities. This application interacts with a mock API using Axios to fetch, create, update, and delete user data. The clean and responsive design ensures a smooth user experience across various devices.
@@ -24,12 +24,12 @@ The React Axios TODO application is a comprehensive platform designed to manage 
 - **CSS3:** For styling the application.
 
 ## Mock API
-The application interacts with a mock API to perform CRUD operations. The mock API URL used is: [Mock API URL is here ] (https://669b51c1276e45187d351f5b.mockapi.io/todo/TODO)
+The application interacts with a mock API to perform CRUD operations. The mock API URL used is: [Mock API URL is here ](https://669b51c1276e45187d351f5b.mockapi.io/todo/TODO)
 
 
 ## Setup and Installation
 
 1. **Clone the repository:**
 ```sh
-git clone https://github.com/Ulaganathan0709/react-axios-todo
+git clone https://github.com/Ulaganathan0709/react-axios-todo?tab=readme-ov-file
 
