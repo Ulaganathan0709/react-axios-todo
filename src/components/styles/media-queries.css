@@ -1,0 +1,85 @@
+/* media-queries.css */
+
+/* Large devices (desktops, 1200px and up) */
+@media (max-width: 1200px) {
+    .todo-item {
+      width: calc(50% - 30px);
+    }
+    .sidebar {
+      width: 200px;
+    }
+    .main-content.expanded {
+      margin-left: 200px;
+    }
+  }
+  
+  /* Medium devices (tablets, 992px and up) */
+  @media (max-width: 992px) {
+    .todo-item {
+      width: calc(50% - 30px);
+    }
+    .sidebar {
+      width: 150px;
+    }
+    .main-content.expanded {
+      margin-left: 150px;
+    }
+  }
+  
+  /* Small devices (landscape phones, 768px and up) */
+  @media (max-width: 768px) {
+    .todo-item {
+      width: calc(100% - 20px);
+    }
+    .sidebar {
+      width: 100px;
+    }
+    .main-content.expanded {
+      margin-left: 100px;
+    }
+    .header .menu-button {
+      display: block;
+    }
+    .header .title {
+      font-size: 20px;
+    }
+  }
+  
+  /* Extra small devices (portrait phones, less than 576px) */
+  @media (max-width: 576px) {
+    .todo-item {
+      width: calc(100% - 20px);
+    }
+    .sidebar {
+      width: 80px;
+    }
+    .main-content.expanded {
+      margin-left: 80px;
+    }
+    .header .menu-button {
+      display: block;
+    }
+    .header .title {
+      font-size: 18px;
+    }
+  }
+  
+  /* Very small devices (less than 400px) */
+  @media (max-width: 400px) {
+    .todo-item {
+      width: calc(100% - 20px);
+    }
+    .sidebar {
+      width: 60px;
+    }
+    .main-content.expanded {
+      margin-left: 60px;
+    }
+    .header .menu-button {
+      display: block;
+    }
+    .header .title {
+      font-size: 16px;
+    }
+  }
+  

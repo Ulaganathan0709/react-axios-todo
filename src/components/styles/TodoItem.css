@@ -1,0 +1,67 @@
+.todo-item {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: calc(33% - 40px);
+  margin: 10px; /* Add margin for better spacing */
+}
+
+.todo-item.completed {
+  background-color: lightgreen;
+  color: black;
+}
+
+.todo-item.not-completed {
+  background-color: lightcoral;
+  color: black;
+}
+
+.todo-item.overdue {
+  background-color: darkred;
+  color: white; /* Text color for better readability */
+}
+
+.todo-item select,
+.todo-item input {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: black; /* Ensuring the input text remains readable */
+}
+
+.todo-item .edit-button,
+.todo-item .delete-button {
+  font-size: 1rem; /* Increase font size */
+  padding: 10px 20px; /* Increase padding */
+  margin-top: 10px; /* Add margin-top for better spacing */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add border-radius for smoother corners */
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+.todo-item .edit-button {
+  background-color: yellow;
+  color: black;
+}
+
+.todo-item .delete-button {
+  background-color: red;
+  color: white;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  .todo-item {
+    width: calc(50% - 30px);
+  }
+}
+
+@media (max-width: 768px) {
+  .todo-item {
+    width: calc(100% - 20px);
+  }
+}
+

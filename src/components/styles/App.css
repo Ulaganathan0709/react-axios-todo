@@ -1,0 +1,75 @@
+.app {
+  display: flex;
+}
+
+.main-content {
+  flex-grow: 1;
+  margin-left: 250px; /* Adjust this to match the sidebar's width */
+  transition: margin-left 0.3s;
+}
+
+.main-content.expanded {
+  margin-left: 300px; /* Adjust this to match the expanded sidebar's width */
+}
+
+.content {
+  padding: 2rem;
+  flex-grow: 1;
+}
+
+.counts {
+  display: flex;
+  justify-content: center; /* Center the counts container */
+  gap: 1rem;
+  margin-top: 20px; /* Add some margin at the top */
+}
+
+.box {
+  background-color: #f8f9fa; /* Light background color for better visibility */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1rem;
+  text-align: center;
+  width: 150px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for a card effect */
+  font-size: 1.2rem; /* Increase font size */
+  font-weight: bold; /* Make text bold */
+  color: #333; /* Text color */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box.completed {
+  background-color: #a5d6a7;
+}
+
+.box.pending {
+  background-color: #fff59d;
+}
+
+.box.overdue {
+  background-color: #ef9a9a;
+}
+
+.header {
+  background-color: #007bff; /* Background color for header */
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.header p {
+  margin: 0;
+  font-size: 1rem;
+}
+
